@@ -3,14 +3,14 @@
 
 def head(input_list):
     """Return the first item of the input list.
-
+    
     For example:
 
       >>> head(['Jan', 'Feb', 'Mar'])
       'Jan'
     """
-
-    return None
+    head = input_list[0]
+    return head
 
 
 def tail(input_list):
@@ -22,8 +22,8 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
-
-    return []
+    tail = input_list[1:]
+    return tail
 
 
 def last(input_list):
@@ -35,8 +35,8 @@ def last(input_list):
     'Mar'
 
     """
-
-    return []
+    last = input_list[-1]
+    return last 
 
 
 def top(input_list):
@@ -48,8 +48,8 @@ def top(input_list):
     ['Jan', 'Feb']
 
     """
-
-    return []
+    top = input_list[:-1]
+    return top
 
 
 def first_three(input_list):
@@ -61,8 +61,8 @@ def first_three(input_list):
     ['Jan', 'Feb', 'Mar']
 
     """
-
-    return []
+    first_three = input_list[0:2]
+    return first_three 
 
 
 def last_five(input_list):
@@ -74,8 +74,8 @@ def last_five(input_list):
     [15, 18, 21, 24, 27]
 
     """
-
-    return []
+    last_five = input_list[-5:]
+    return last_five
 
 
 def middle(input_list):
