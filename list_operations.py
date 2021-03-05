@@ -87,8 +87,8 @@ def middle(input_list):
     [6, 9, 12, 15, 18, 21]
 
     """
-
-    return []
+    new_list = input_list[2:-2]
+    return new_list 
 
 
 def inner_four(input_list):
@@ -100,8 +100,8 @@ def inner_four(input_list):
     [6, 9, 12, 15]
 
     """
-
-    return []
+    inner_four = input_list[2:6]
+    return inner_four 
 
 
 def inner_four_end(input_list):
@@ -116,8 +116,8 @@ def inner_four_end(input_list):
     [12, 15, 18, 21]
 
     """
-
-    return []
+    inner_four_end = input_list[-6:-2]
+    return inner_four_end 
 
 
 def replace_head(input_list):
